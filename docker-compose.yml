@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+
+  keystone:
+    build: .
+    ports:
+      - 8888:3000
+    volumes:
+      - ./test:/home/node/override
+      - ./override.js:/home/node/keystone/override.js
+    links:
+      - mongo
+
+  mongo:
+    image: mongo
