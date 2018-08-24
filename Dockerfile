@@ -1,6 +1,6 @@
 ##
 FROM node:10.9.0-alpine
-RUN npm install -g yo generator-keystone docker-override@0.1.3
+RUN npm install -g yo generator-keystone docker-override@0.1.4
 
 ##
 ENV MONGO_URI=mongodb://mongo/keystone

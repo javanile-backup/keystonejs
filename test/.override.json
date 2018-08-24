@@ -1,5 +1,6 @@
 {
     "files": {
-        "keystone.js": "override"
+        "keystone.js": "override",
+        "templates/layouts/default.pug": "override"
     }
 }
