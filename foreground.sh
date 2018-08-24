@@ -2,4 +2,4 @@
 
 override
 
-npm start
+node keystone

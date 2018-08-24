@@ -8,7 +8,6 @@ services:
       - 8888:3000
     volumes:
       - ./test:/home/node/override
-      - ./override.js:/home/node/keystone/override.js
     links:
       - mongo
 
